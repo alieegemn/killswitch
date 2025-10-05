@@ -1,1 +1,22 @@
-print("killswitch2 is off")
+if not executedfromkeysystem then
+	game.Players.LocalPlayer:Kick("DONT BYPASS KEY SYSTEM IF YOU DIDNT AND STILL GET THIS REEXECUTE AND REJOIN")
+end
+
+
+local placeId = game.PlaceId
+
+if placeId == 109983668079237 then
+    -- Script for Game 2
+    getgenv().executedfrommain = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/asdfghjkasdfghasdfg/t/refs/heads/main/qc.txt"))()
+	elseif placeId == 96342491571673 then
+    -- Script for Game 1
+    getgenv().executedfrommain = true
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/asdfghjkasdfghasdfg/t/refs/heads/main/qc.txt"))()
+
+
+		
+    return -- ✅ stop after Game 2 script runs
+
+
+end
