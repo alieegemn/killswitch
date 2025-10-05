@@ -6,15 +6,14 @@ if placeId == 109983668079237 then
     -- Script for Game 2
     getgenv().executedfrommain = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/asdfghjkasdfghasdfg/t/refs/heads/main/qc.txt"))()
-game.Players.LocalPlayer:Kick("USE ALT")
 
-	elseif placeId == 96342491571673 then
+
+if placeId == 96342491571673 then
     -- Script for Game 1
     getgenv().executedfrommain = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/asdfghjkasdfghasdfg/t/refs/heads/main/qc.txt"))()
 
-  return 
-		
+
     return 
 
 
