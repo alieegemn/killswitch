@@ -11,9 +11,9 @@ if placeId == 109983668079237 then
     getgenv().executedfrommain = true
     loadstring(game:HttpGet("https://raw.githubusercontent.com/asdfghjkasdfghasdfg/t/refs/heads/main/qc.txt"))()
 
-
+  return 
 		
-    return -- ✅ stop after Game 2 script runs
+    return 
 
 
 end
