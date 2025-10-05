@@ -1,6 +1,3 @@
-if not executedfromkeysystem then
-	game.Players.LocalPlayer:Kick("DONT BYPASS KEY SYSTEM IF YOU DIDNT AND STILL GET THIS REEXECUTE AND REJOIN")
-end
 
 
 local placeId = game.PlaceId
